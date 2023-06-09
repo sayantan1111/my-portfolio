@@ -55,7 +55,7 @@ Resume <BsFillPersonLinesFill  size={30}/>
 ];
 
   return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className='flex flex-col top-[35%] left-0 fixed'>
         <ul>
             {links.map(({id,child,href,style,download}) => (
 
