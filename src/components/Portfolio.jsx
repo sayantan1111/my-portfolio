@@ -2,16 +2,7 @@ import React from 'react'
 import portfolio from '../assets/portfolio/portfolio.png'
 import musicPlayer from "../assets/portfolio/musicPlayer.jpeg";
 const Portfolio = () => {
-    const portfolios = [
-    {
-      id: 1,
-      src: portfolio,
-    },
-    {
-      id: 2,
-      src: musicPlayer,
-    },
-      ];
+   
   return (
     <div
     name="portfolio"
@@ -26,23 +17,41 @@ const Portfolio = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-        {portfolios.map(({ id, src }) => (
-          <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+       
+          <div className="shadow-md shadow-gray-600 rounded-lg">
             <img
-              src={src}
+              src={portfolio}
               alt=""
               className="rounded-md duration-200 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Demo
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"><a href='https://amazing-tulumba-f301f3.netlify.app/'>Demo</a>
+                
               </button>
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Code
+              <a href='https://github.com/sayantan1111/my-portfolio'>Code</a>
               </button>
             </div>
           </div>
-        ))}
+      </div>
+
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+       
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={musicPlayer}
+              alt=""
+              className="rounded-md duration-200 hover:scale-105"
+            />
+            <div className="flex items-center justify-center">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"><a href='https://melodious-jalebi-06395e.netlify.app/'>Demo</a>
+                
+              </button>
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <a href='https://github.com/sayantan1111/music-player-using-html-css-javascript'>Code</a>
+              </button>
+            </div>
+          </div>
       </div>
     </div>
   </div>
