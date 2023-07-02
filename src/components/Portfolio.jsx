@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolio from '../assets/portfolio/portfolio.png'
+import musicPlayer from "../assets/portfolio/musicPlayer.jpeg";
 const Portfolio = () => {
     const portfolios = [
     {
