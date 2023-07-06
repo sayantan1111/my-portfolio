@@ -10,7 +10,7 @@ const About = () => {
           About
         </p>
         </div>
-        <p className='text-xl-mt-20'>I am the student of SRM University , B-Tech in Computer Science, CHENNAI-TamilNadu. I an currently doing my DSA course from GEEKS FOR GEEKS. And also certified frontend web Developer.
+        <p className='text-xl-mt-20'>I am the student of SRM University , B-Tech in Computer Science, CHENNAI-TamilNadu. I am currently doing my DSA course from GEEKS FOR GEEKS. And also certified frontend web Developer.
 </p>
     <br/>
     <p className='text-xl'>Hi, I'm Sayantan, an aspiring web developer with a passion for creating captivating online experiences.
